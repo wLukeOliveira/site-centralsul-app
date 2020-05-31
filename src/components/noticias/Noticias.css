@@ -1,0 +1,31 @@
+.Divider {
+    order: 0;
+    height: 1px;
+    background: black;
+    border: none;
+    opacity: 0.4;
+    width: 1043px;
+}
+
+@font-face {
+    font-family: 'Minion-Condensed';
+    font-style: normal;
+    font-weight: bold;
+    src:
+      local('Minion-Condensed'),
+      local('Minion-Condensed'),
+      url(../../fonts/Minion-Condensed.otf) format('opentype');
+  }
+  
+
+.LastNews{
+    color: #dadada;
+    letter-spacing: 20px;
+    display:flex;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 43px;
+    font-family: Minion-Condensed;
+
+}

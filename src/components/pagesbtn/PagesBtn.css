@@ -1,0 +1,43 @@
+.Btn{
+    color: white;
+    text-decoration: none;
+    -webkit-transition: 0.3s all ease;
+    transition: 0.3s ease all;
+
+    margin-right: 20px;
+  }
+  .BtnBlock{
+      height: 20px;
+  }
+.Btn:hover {
+    color: #50a6ca;
+    
+}
+
+
+
+.BtnBlock:hover .progress-bar{
+    animation: progress-animation 0.8s forwards;
+ 
+}
+  .progress{
+    height: 6px;
+    width: 50px;
+
+    position: relative;
+  }
+  
+  .progress-bar{
+   position: absolute;
+   height: 100%;
+   border-radius: 20px;
+   background-color: #50a6ca;
+
+  }
+  
+  
+  @keyframes progress-animation{
+    0% { width: 0%; }
+    100% { width: 50%}
+    
+  }

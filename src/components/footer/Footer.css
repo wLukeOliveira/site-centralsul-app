@@ -1,0 +1,76 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    margin-top: 10px;
+    background-color: #2b2c2c;
+    color: white;
+    position: absolute;
+    bottom: 1;
+    width: 100%;
+   
+  }
+  @font-face {
+    font-family: 'Roboto-Regular';
+    font-style: normal;
+    font-weight: normal;
+    src:
+      local('Roboto-Regular'),
+      local('Roboto-Regular'),
+      url(../../fonts/Roboto-Regular.otf) format('opentype');
+  }
+
+  @font-face {
+    font-family: 'Roboto-Thin';
+    font-style: normal;
+    font-weight: normal;
+    src:
+      local('Roboto-Thin'),
+      local('Roboto-Thin'),
+      url(../../fonts/Roboto-Thin.ttf) format('truetype');
+  }
+
+  .vl {
+
+    height: 100px;
+    width: 1px;
+    margin-left: 30px;
+    background-color: #1f2020;
+  }
+
+  .FooterText{
+    height: 150px;
+    width:450px;
+    margin-left: 30px;
+    display: inline-block;
+    justify-content: center;
+  }
+  .FooterContact{
+    height: 150px;
+    width:300px;
+    margin-left: 50px;
+
+  }
+
+  .Slogan{
+
+    font-family: Roboto-Regular;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 500;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+ 
+p{
+  font-size: 10px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ 

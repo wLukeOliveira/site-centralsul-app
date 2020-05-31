@@ -1,0 +1,21 @@
+.LogoLR{
+    width: 100px;
+    height: 100px;
+    /* padding-left: 35px;
+    padding-right: 35px; */
+    opacity: 0.90;
+
+
+}
+.Row{
+    display: flex;
+    justify-content: center;
+
+}
+.NewsContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1148px;
+    flex-wrap: wrap;
+}

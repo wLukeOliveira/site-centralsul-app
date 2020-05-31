@@ -1,0 +1,12 @@
+.Contact{
+    width: 300px;
+   margin-top: 10px;
+}
+
+.UserName{
+    font-size: 30px;
+    font-family: Roboto-Thin;
+    margin-left: 10px;
+    font-style: italic;
+}
+

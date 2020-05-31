@@ -1,0 +1,20 @@
+.AdsBlock{
+    display: flex;
+    height: 270px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center; 
+
+}
+
+.AdsContent{
+    height:206px;
+    width: 1043px;
+    color: white;
+    background-color: #1f2020;
+    border-radius: 20px;
+    text-align: center;
+}
+.Ads1{
+    border-radius: 20px;
+}

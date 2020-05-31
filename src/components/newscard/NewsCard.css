@@ -1,0 +1,86 @@
+.card{
+    width: 454px;
+    height: 206px;
+    color: white;
+    background-color: #2b2c2c;
+    border-radius: 30px;
+    margin-top:20px;
+    margin-bottom: 30px;
+    margin-right: 35px;
+    margin-left: 35px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: 1s;
+} 
+
+ .card:hover{
+    width: 474px;
+    height: 230px;
+    margin-top:0px;
+    margin-bottom: 0px;
+    margin-right: 25px;
+    margin-left: 25px;
+    transition: 1s;
+} 
+
+
+.card:hover .Clique{
+    opacity: 1;
+    margin-top: 15px;
+    transition: 1s;
+}
+.Title{
+    margin-top: 10px;
+    justify-content: center;
+    display: flex;
+}
+.TitleText{
+    background-color: transparent;
+    font-family: Roboto-Regular;
+    font-style: italic;
+    font-size: 22px;
+}
+
+.Description{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.DescriptionText{
+    display: inline-block;
+    font-size: 10px;
+    height: 100px;
+    margin-top: 0;
+    font-family: Roboto-Thin;
+    font-size: 20px;
+    text-align: justify;
+}
+
+.Clique{
+
+    display: flex;
+    opacity: 0;
+    justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    transition: 1s;
+}
+
+.CliqueText{
+    font-family: Roboto-Regular;
+    font-style: italic;
+    font-size: 18px;
+}
+
+.Info{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.InfoText{
+    font-family: Roboto-Regular;
+    font-style: italic;
+    font-size: 15px;
+}
