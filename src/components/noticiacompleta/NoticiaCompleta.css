@@ -1,0 +1,62 @@
+.Body{
+    justify-content: center;
+}
+
+.Divider2 {
+    order: 0;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.76);
+    border: none;
+    opacity: 0.4;
+    width: 900px;
+}
+
+.NewContent{
+    display: flex;
+    justify-content: center;
+}
+
+.ContentText{
+    color: white;
+    font-size: 20px;
+    width: 900px;
+}
+.Titul{
+    color: #dadada;
+    display:flex;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 43px;
+    font-family: Roboto-Regular;
+}
+
+.Inf{
+    display: flex;
+    justify-content: center;
+}
+
+.InfContent{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+
+}
+
+.InfText{
+    font-family: Roboto-Regular;
+    font-style: italic;
+    font-size: 19px;
+    color: white;
+}
+
+.Msg{
+    color: #dadada;
+    letter-spacing: 5px;
+    display:flex;
+    font-style: italic;
+    margin-top: 20px;
+    justify-content: center;
+    font-size: 43px;
+    font-family: Minion-Condensed;
+}

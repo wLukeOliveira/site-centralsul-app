@@ -1,0 +1,13 @@
+.PhotoGallery{
+    display: flex;
+    justify-content: center;
+}    
+
+.Bart{
+    width: 450px;
+    height: 450px;
+    border-radius: 30PX;
+    border-style: solid;
+    border-color: rgba(110, 108, 108, 0.178);
+    border-width: 5px;
+}

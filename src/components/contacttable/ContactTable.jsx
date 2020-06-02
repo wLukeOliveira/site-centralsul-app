@@ -1,6 +1,6 @@
 import React from 'react'
 import './ContactTable.css';
-import ContactRow from '../contactrow/ContactRow';
+import ContactRow from '../contactrow/ContactRow.jsx';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {faFacebookSquare,faWhatsapp, faInstagram } from "@fortawesome/free-brands-svg-icons"
 

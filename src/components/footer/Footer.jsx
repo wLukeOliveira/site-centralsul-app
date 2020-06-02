@@ -2,7 +2,7 @@ import React from 'react'
 import './Footer.css';
 import LawerLogo from '../../images/lawerLogo.png';
 import LogoCS from '../../images/logoCS.png';
-import ContactTable from '../contacttable/ContactTable';
+import ContactTable from '../contacttable/ContactTable.jsx';
 
 function Footer() {
     return (

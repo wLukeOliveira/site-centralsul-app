@@ -1,7 +1,7 @@
 import React from 'react'
 import './Noticias.css';
-import NewsRow from '../newsrow/NewsRow';
-import AppAds from '../appads/AppAds';
+import NewsRow from '../newsrow/NewsRow.jsx';
+import AppAds from '../appads/AppAds.jsx';
 function Noticias(){
     return(
         <body> 
@@ -12,7 +12,6 @@ function Noticias(){
                 <NewsRow></NewsRow>
             </div>
         </body>
-        
     )
 }
 

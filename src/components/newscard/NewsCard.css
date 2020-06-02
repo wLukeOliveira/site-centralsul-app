@@ -69,6 +69,8 @@
     font-family: Roboto-Regular;
     font-style: italic;
     font-size: 18px;
+    text-decoration: none;
+    color: white;
 }
 
 .Info{
