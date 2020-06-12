@@ -60,3 +60,24 @@
     font-size: 43px;
     font-family: Minion-Condensed;
 }
+
+@media screen and (max-width: 1043px){
+    .Divider2{
+      width: 90%;
+    }
+    .Titul{
+        font-size: 22px;
+    }
+    .InfText{
+        font-size: 12px;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 3%;
+    }
+    .ContentText{
+        color: white;
+        font-size: 18px;
+        width: 80%;
+    }
+ 
+}

@@ -4,3 +4,14 @@
     margin-top: 10px;
     margin-bottom: 30px;
 }
+
+
+@media screen and (max-width: 1043px){
+    .Msg{
+        font-size: 22px;}
+}
+
+.Video{
+    width: 830;
+    height: 553;
+}

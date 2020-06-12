@@ -29,3 +29,19 @@
     font-family: Minion-Condensed;
 
 }
+
+@media screen and (max-width: 1043px){
+    .Divider{
+      width: 90%;
+    }
+ 
+}
+
+@media screen and (max-width: 1043px){
+
+    .LastNews{
+        font-size:25px;
+        letter-spacing: 5px;
+    
+    }
+}

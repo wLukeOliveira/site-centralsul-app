@@ -10,8 +10,10 @@ import Footer from './components/footer/Footer.jsx'
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
   return (
+    
     <Router>
       <div className="App">
+        
         <Header/>
         <Switch>
             <Route exact path="/" component={Noticias} />

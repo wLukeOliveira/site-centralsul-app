@@ -4,14 +4,15 @@ import NewsRow from '../newsrow/NewsRow.jsx';
 import AppAds from '../appads/AppAds.jsx';
 function Noticias(){
     return(
-        <body> 
-            <div>
-                <AppAds></AppAds>
-                <hr className="Divider"></hr>
-                <span className="LastNews">ÚLTIMAS NOTÍCIAS</span>
-                <NewsRow></NewsRow>
-            </div>
-        </body>
+      
+        <div>
+
+            <AppAds></AppAds>
+            <hr className="Divider"></hr>
+            <span className="LastNews">ÚLTIMAS NOTÍCIAS</span>
+            <NewsRow></NewsRow>
+        </div>
+        
     )
 }
 

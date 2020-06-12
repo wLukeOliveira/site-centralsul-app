@@ -10,3 +10,13 @@
     font-style: italic;
 }
 
+@media screen and (max-width: 1100px){
+    .UserName{
+        font-size: 20px;
+    }
+    .Contact{
+        width: auto;
+    }
+    
+  
+  }

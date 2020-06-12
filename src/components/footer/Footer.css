@@ -7,9 +7,7 @@
     background-color: #2b2c2c;
     color: white;
     position: absolute;
-    bottom: 1;
     width: 100%;
-   
   }
   @font-face {
     font-family: 'Roboto-Regular';
@@ -32,8 +30,7 @@
   }
 
   .vl {
-
-    height: 100px;
+    height: 60%;
     width: 1px;
     margin-left: 30px;
     background-color: #1f2020;
@@ -74,3 +71,36 @@ p{
   align-items: center;
 }
  
+@media screen and (max-width: 1100px){
+  .Slogan{
+      display: none;
+  }
+  .FooterText{
+    display: none;
+  }
+  .FooterText{
+    /* height: 150px;
+    width:450px;
+    display: inline-block;
+    justify-content: center; */
+    margin-left: 0px;
+  }
+  .FooterContact{
+    margin-left: 0px;
+
+  }
+  .LSLogo{
+    margin-left: 0px;
+    padding-left: 1%;
+    width: 70px;
+    height: 53px;
+  }
+  .LawerLogo{
+    width: 100px;
+    height: 64px;
+  }
+  .vl {
+    
+    margin-left: 3%;
+  }
+}

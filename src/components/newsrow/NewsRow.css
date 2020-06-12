@@ -5,7 +5,6 @@
     padding-right: 35px; */
     opacity: 0.90;
 
-
 }
 .Row{
     display: flex;
@@ -19,3 +18,10 @@
     width: 1148px;
     flex-wrap: wrap;
 }
+
+
+@media screen and (max-width: 1200px){
+    .LogoLR{
+        display: none;
+    }
+  }

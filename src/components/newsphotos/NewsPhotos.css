@@ -11,3 +11,10 @@
     border-color: rgba(110, 108, 108, 0.178);
     border-width: 5px;
 }
+
+@media screen and (max-width: 1043px){
+    .Bart{
+        width:80%;
+        height: 80%;
+    }
+}

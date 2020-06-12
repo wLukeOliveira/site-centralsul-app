@@ -6,8 +6,26 @@
     background-color: #2b2c2c;
     color: white;
     box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
   }
 
 .LogoCentralSul{
   margin-right: 500px;
+}
+.LSLog{
+ display: none;
+ height: 40px;
+ width: 53px;
+}
+
+@media screen and (max-width: 1000px){
+  .LogoCentralSul{
+    margin-right: 0px;
+    display: none;
+  }
+  .LSLog{
+    display: flex;
+    margin-right: 10%;
+   }
+  
 }

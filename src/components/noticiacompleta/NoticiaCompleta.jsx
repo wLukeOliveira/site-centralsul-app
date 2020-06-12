@@ -10,7 +10,7 @@ function NoticiaCompleta() {
         <div className="Body">
             <AppAds />
             <hr className="Divider"></hr>
-            <span className="Titul">DOLAR SUBIU</span>
+            <span className="Titul">DOLAR SUBIU MUITO TIOPO MUITO</span>
             <div className="Inf">
                 <div className="InfContent">
                         <span className="InfText">Sapo Noticias</span>
