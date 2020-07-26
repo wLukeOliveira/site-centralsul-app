@@ -59,7 +59,7 @@ class NoticiaCompleta extends Component{
             <NewsVideo></NewsVideo>
             <hr className="Divider2"></hr>
             <span className="Msg">VEJA TAMBÉM</span>
-            <NewsRowComplete />
+            <NewsRowComplete id_key = {this.props.match.params.id} />
         </div>
     )
 }

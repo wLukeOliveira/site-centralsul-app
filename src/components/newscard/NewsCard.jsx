@@ -15,7 +15,7 @@ function NewsCard(props){
                     <span className="CliqueText">CLIQUE PARA LER MAIS</span>
                 </div>
                 <div className="Info">
-                    <span className="InfoText">Sapo Noticias</span>
+                    <span className="InfoText">{props.autor}</span>
                     <span className="InfoText">08/06/2020</span>
                 </div>
         </Link>

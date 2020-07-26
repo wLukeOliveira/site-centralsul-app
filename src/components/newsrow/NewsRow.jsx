@@ -46,7 +46,7 @@ class NewsRow extends Component{
             
             <div className="NewsContent">
             {this.state.boards.map(board =>
-                <NewsCard title = {board.title} description = {board.description} chave = {board.key}></NewsCard>
+                <NewsCard chave = {board.key} title = {board.title} description = {board.description} autor = {board.autor} time = {board.time}></NewsCard>
             )}
         
             </div>
