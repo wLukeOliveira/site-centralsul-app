@@ -4,12 +4,12 @@ import { Link } from 'react-router-dom';
 
 function NewsCard(props){
     return(
-        <Link className="card" to="/noticia">
+        <Link className="card" to={`/noticia/${props.chave}`}>
                 <div className="Title">
                     <span className="TitleText">{props.title}</span>
                 </div>
                 <div className="Description">
-    <p className="DescriptionText">{props.description}</p>
+                    <p className="DescriptionText">{props.description}</p>
                 </div>
                 <div className="Clique">
                     <span className="CliqueText">CLIQUE PARA LER MAIS</span>

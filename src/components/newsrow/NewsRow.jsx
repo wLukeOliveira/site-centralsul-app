@@ -19,13 +19,14 @@ class NewsRow extends Component{
       onCollectionUpdate = (querySnapshot) => {
         const boards = [];
         querySnapshot.forEach((doc) => {
-          const { title, description, author } = doc.data();
+          const { title, description, autor,time} = doc.data();
           boards.push({
             key: doc.id,
             doc, // DocumentSnapshot
             title,
             description,
-            author,
+            autor,
+            time,
           });
         });
         this.setState({
@@ -36,18 +37,21 @@ class NewsRow extends Component{
       componentDidMount() {
         this.unsubscribe = this.ref.onSnapshot(this.onCollectionUpdate);
       }
-    
+      
     
     render(){
-    return(
+        return(
         
         <div className="Row">
-            {this.state.boards.map(board =>
+            
             <div className="NewsContent">
-                <NewsCard title = {board.title} description = {board.description}></NewsCard>
-                <img className="LogoLR" src={LogoLR} alt="Logo LR"/>
-            </div>
+            {this.state.boards.map(board =>
+                <NewsCard title = {board.title} description = {board.description} chave = {board.key}></NewsCard>
             )}
+        
+            </div>
+           
+           
         </div>   
     )
 }
