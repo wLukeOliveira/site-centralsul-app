@@ -23,7 +23,7 @@ function App() {
               <div>404 not found</div>
             </Route>
           </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
    

@@ -6,7 +6,7 @@ import firebase from './../../Firebase';
 import { render } from '@testing-library/react';
 
 class NewsRow extends Component{
-    
+    descriptionAux = "";
     constructor(props) {
         super(props);
         this.ref = firebase.firestore().collection('notes');
@@ -19,7 +19,7 @@ class NewsRow extends Component{
       onCollectionUpdate = (querySnapshot) => {
         const boards = [];
         querySnapshot.forEach((doc) => {
-          const { title, description, autor,time} = doc.data();
+          const {title, description, autor,time} = doc.data();
           boards.push({
             key: doc.id,
             doc, // DocumentSnapshot
@@ -46,6 +46,7 @@ class NewsRow extends Component{
             
             <div className="NewsContent">
             {this.state.boards.map(board =>
+
                 <NewsCard chave = {board.key} title = {board.title} description = {board.description} autor = {board.autor} time = {board.time}></NewsCard>
             )}
         

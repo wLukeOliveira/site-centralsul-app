@@ -13,7 +13,10 @@ class NoticiaCompleta extends Component{
         this.state = {
           board: {},
           key: '',
-          url: []
+          url: [],
+          time: {},
+          video: []
+
         };
       }
 
@@ -25,6 +28,8 @@ class NoticiaCompleta extends Component{
               board: doc.data(),
               key: doc.id,
               url: doc.data().url,
+              time: doc.data().time,
+              video: doc.data().video,
               isLoading: false
             });
           } else {
@@ -35,7 +40,6 @@ class NoticiaCompleta extends Component{
 
 
     render(){
-        console.log(this.state.url[0])
     return (
         <div className="Body">
             <AppAds />
@@ -43,8 +47,8 @@ class NoticiaCompleta extends Component{
             <span className="Titul">{this.state.board.title}</span>
             <div className="Inf">
                 <div className="InfContent">
-    <span className="InfText">{this.state.board.autor}</span>
-                        <span className="InfText">08/06/2020</span>
+                    <span className="InfText">{this.state.board.autor}</span>
+                    <span className="InfText">{new Date(this.state.time.seconds * 1000).toLocaleDateString("en-GB")}</span>
             </div>
             </div>
             
@@ -56,7 +60,8 @@ class NoticiaCompleta extends Component{
             </div>
             {this.state.url.map(boa =><NewsPhotos url = {boa}></NewsPhotos>)}
             
-            <NewsVideo></NewsVideo>
+            {this.state.video.map(url => <NewsVideo video = {url}></NewsVideo>)}
+            
             <hr className="Divider2"></hr>
             <span className="Msg">VEJA TAMBÉM</span>
             <NewsRowComplete id_key = {this.props.match.params.id} />
